@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Háromszög</title>
+    <link rel="stylesheet" href="bbbb.css">
+    <script src="cccc.js"></script>
+</head>
+<body>
+    <h1>A derékszögő háromszög oldalhosszai</h1>
+    <form>
+        <label>A befogó: </label>
+        <input type="text" name="aOldal" id="aOldal"> <br>
+        <label>B befogó: </label> 
+        <input type="text" name="bOldal" id="bOldal"> <br>
+        <label>Átfogó: </label>
+        <input type="text" name="cOldal" id="cOldal"> <br>
+        <hr>
+        <input type="button" value="Megszerkezthető?"  onclick="isTriangle()">
+        <input type="button" value="Véletlen oldalhosszak 10...100-ból"  onclick="cCalc()">
+        <input type="button" value="Átfogó kiszámítása" onclick="random()">
+    </form>
+</body>
+</html>

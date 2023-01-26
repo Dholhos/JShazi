@@ -1,0 +1,10 @@
+input {
+    margin-bottom: 10px;
+}
+html {
+    background-color: burlywood;
+}
+
+label {
+    font-weight: bold;
+}
